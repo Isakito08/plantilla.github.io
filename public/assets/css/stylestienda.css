@@ -1,0 +1,181 @@
+.maintienda{
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 15px; /* Agrega un espacio entre el h1 y el borde */
+    margin-top: 0; /* Elimina el margen superior predeterminado del h1 */
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Ajusta la altura del main según sea necesario */
+    font-size: 150px;
+    color: aliceblue;
+}
+
+.section1tienda{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 1300px;
+    width: 100%;
+    position: relative;
+  background-color: black; /* Color de fondo */
+   color: white;
+}
+
+
+
+
+
+
+.fila1{
+    display: flex;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   flex-wrap: wrap; 
+}
+
+.fila2{
+    display: flex;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   flex-wrap: wrap; 
+}
+
+.fila3{
+    display: flex;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   flex-wrap: wrap; 
+}
+
+.carro1{
+   width: 300px;
+   height:300px;
+   margin-left: 50px;
+   flex: 1; /* Distribuye el espacio disponible de manera equitativa entre los elementos */
+   padding: 10px;
+   box-sizing: border-box;
+   position: relative;
+   overflow: hidden;
+   background-color: transparent;
+   position: relative;
+   transition: transform 0.3s, margin-left 0.3s; 
+}
+
+.carro1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen cubrirá todo el espacio del contenedor */
+    transition: transform 0.3s;
+    transform-origin: left center;
+  }
+
+  
+  .carro1:hover img {
+    transform: scale(1.0); /* Aplica un aumento en la escala al poner el cursor sobre la imagen */
+
+  }
+
+  .text-tienda.ferraris{
+    position: absolute;
+    
+    color: black;
+    margin-left: 4%;
+    margin-top: 30px;
+  }
+
+  .text-tienda.lamborghini{
+    position: absolute;
+    
+    color: black;
+    margin-left: 4%;
+    margin-top: 450px;
+  }
+
+  .text-tienda.porshe{
+    position: absolute;
+    
+    color: black;
+    margin-left: 4%;
+    margin-top: 870px;
+  }
+
+  .text-tienda.ferraris h2{
+   color: white;
+    font-size: 30px;
+  }
+  
+  .text-tienda.lamborghini h2{
+    color: white;
+    font-size: 30px;
+
+  }
+
+  .text-tienda.porshe h2{
+    color: white;
+    font-size: 30px;
+  }
+    
+  
+
+  .text-tienda{
+    text-align: center;
+    color: white;
+
+}  
+  
+ 
+
+@media screen and (max-width: 768px) {
+    .fila1, .fila2, .fila3 {
+      flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
+    }
+
+    .section1tienda{
+      height: 2300px;
+    }
+
+    .text-tienda.lamborghini{
+      position: absolute;
+      margin-left: 4%;
+      margin-top: 750px;
+    }
+  
+    .text-tienda.porshe{
+      position: absolute;
+       margin-left: 4%;
+      margin-top: 1500px;
+    }
+  
+   .maintienda{
+    align-items: center;
+    justify-content: center;
+   }    
+  }
+
+
+  @media screen and (max-width: 375px) {
+    .fila1, .fila2, .fila3 {
+      flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
+    }
+
+    .section1tienda{
+      height: 2300px;
+    }
+
+    .text-tienda.lamborghini{
+      position: absolute;
+      margin-left: 4%;
+      margin-top: 750px;
+    }
+  
+    .text-tienda.porshe{
+      position: absolute;
+       margin-left: 4%;
+      margin-top: 1500px;
+    }
+  
+   .maintienda{
+    align-items: center;
+    justify-content: center;
+   }    
+  }
