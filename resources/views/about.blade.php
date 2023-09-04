@@ -20,15 +20,25 @@
     <div class="trabajadores">
         <div class="text-trabajadores"><h2>gerentes</h2></div>
         <div class="imagenes-trabajadores">
-            <div class="gerente-img">hola</div>
-            <div class="gerente-img">hola</div>
-            <div class="gerente-img">hola</div>
-            <div class="gerente-img">hola</div>
-            <div class="gerente-img">hola</div>
+            <div class="gerente-img isaac">
+                <div class="nomgerente isaac"><h2>isaac quintero</h2></div>
+            </div>
+            <div class="gerente-img sebastian">
+                <div class="nomgerente sebastian"><h2>sebastian cantor</h2></div>
+            </div>
+            <div class="gerente-img ibañez">
+                <div class="nomgerente ibañez"><h2>jose ibañez</h2></div>
+            </div>
+            <div class="gerente-img sando">
+                <div class="nomgerente andres"><h2>andres sandoval</h2></div>
+            </div>
        </div>
+       
+       
+        
+        
         
     </div>
-  </div>
 
 </main>
 

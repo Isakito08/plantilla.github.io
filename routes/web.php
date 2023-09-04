@@ -66,5 +66,17 @@ Route::get('/about', function () {
     return view ('about');
 });
 
+Route::get('/noticia1', function () {
+    return view ('noticia1');
+});
+
+Route::get('/noticia2', function () {
+    return view ('noticia2');
+});
+
+Route::get('/noticia3', function () {
+    return view ('noticia3');
+});
+
 
 

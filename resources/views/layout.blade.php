@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/stylestienda.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/stylespro.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/stylesabout.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/stylesnoticias.css')}}">
 
 
 </head>

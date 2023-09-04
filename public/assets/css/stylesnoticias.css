@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Nunito+Sans:opsz@6..12 & family= Poppins:wght@500 & family= Rubik :wght@300 & display=intercambiar');
+
+.mainnoticia{
+    width: 100%;
+    height: 1300px;
+    background-color: black;
+}
+
+.contenedornoticiass h1{
+    text-align: center;
+    font-size: 30px;
+
+
+}
+.section-noticiass{
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.textonoticiass p{
+    font-size: 20px;
+    margin-top: 10px;
+   font-family:'Bebas Neue', sans-serif;;
+}
+
+.contenedor-imagen-noticiass{
+    width: 50%;
+    height: 40%;
+    background-color: transparent;
+    margin-top: 50px;
+     margin-left: 25%;
+     padding-top: 50px;
+}
+
+.imagen-noticiass{
+    width: 90%;
+    height: 80%;
+    background-color: aliceblue;
+     margin-left: 5%;
+     
+}
+
+.background-imagenoticiass{
+    background-image: url('../img/slide/imgnoticias2.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+ 
+}
+
+.background-imagenoticiass2{
+    background-image: url('../img/slide/piloto.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  
+
+}
+
+.background-imagenoticiass3{
+    background-image: url('../img/slide/llantas.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  
+}

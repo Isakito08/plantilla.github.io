@@ -87,11 +87,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .gerente-img{
-    height: 150px;
-    width: 180px;
-    margin: 50px;
+    height: 200px;
+    width: 200px;
+    margin: 10px 50px 0px 50px;
     background-color: white;
+}
+
+.gerente-img.isaac{
+    background-image: url('../img/gerentes/isaacquintero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.gerente-img.sebastian{
+    background-image: url('../img/gerentes/sebastiancantor.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.gerente-img.ibañez{
+    background-image: url('../img/gerentes/joseibañez.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.gerente-img.sando{
+    background-image: url('../img/gerentes/andressandoval.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.nomgerente{
+    margin-top: 220px;
 }
